@@ -10,5 +10,7 @@ print("Hello World!")
 develop software, 
 analyze data,and
 create AI/ML applications.
-# core features 
+# Core features 
 Interpreted: Python runs code line-by-line, which means it executes immediately without a separate compilation step, making debugging faster.
+Dynamically Typed: You do not need to declare variable types (like integer or string) ahead of time; Python determines them automatically at runtime.
+Readable Syntax: It uses clean, English-like words and relies on mandatory whitespace indentation to define code blocks instead of curly braces {} or semicolons ;.
