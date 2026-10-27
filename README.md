@@ -10,3 +10,5 @@ print("Hello World!")
 develop software, 
 analyze data,and
 create AI/ML applications.
+# core features 
+Interpreted: Python runs code line-by-line, which means it executes immediately without a separate compilation step, making debugging faster.
