@@ -7,6 +7,6 @@ Python is a general-purpose programming language that emphasizes code readabilit
 print("Hello World!") 
 #output: Hello World!
 # Used of python: 
-develop software 
+develop software, 
 analyze data,and
 create AI/ML applications.
