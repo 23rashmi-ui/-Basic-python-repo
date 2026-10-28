@@ -5,3 +5,8 @@ collage = "Nitttr Bhopal"
 print(first_name,last_name)
 print(age)
 print(collage)
+
+'''Output:
+Rashmi marskole
+23
+Nitttr Bhopal'''
