@@ -9,8 +9,11 @@ print(students_atten.get("Rahul"))
 print(students_atten.values())
 print(students_atten.keys())
 print(students_atten.items())
+print(students_atten.pop("Vikram"))
+print(students_atten)
 '''present
 dict_values(['present', 'present', 'absent'])
 dict_keys(['Rahul', 'Sneha', 'Vikram'])
 dict_items([('Rahul', 'present'), ('Sneha', 'present'), ('Vikram', 'absent')])
-'''
+absent
+{'Rahul': 'present', 'Sneha': 'present'}'''
