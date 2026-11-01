@@ -12,7 +12,8 @@ analyze data,and
 create AI/ML applications.
 # Core features 
 # Interpreted:
-Python runs code line-by-line, which means it executes immediately without a separate compilation step, making debugging faster.
+Python runs code line-by-line, which means it executes immediately without a separate compilation step, making debugging faster.Python is an Interpreted as well as Compiled language
+Python is Interpreted as well as compilation language here, we will understand what does means by interpreted and compilation.
 # Dynamically Typed: 
 You do not need to declare variable types (like integer or string) ahead of time; Python determines them automatically at runtime.
 # Readable Syntax: 
