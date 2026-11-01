@@ -2,7 +2,7 @@
 
 # what is python?
 Definition: python is a high-level,interpreted programming language.
-Python is a general-purpose programming language that emphasizes code readability, simplicity, and ease of writing. Created by Guido van Rossum and released in 1991, it has become one of the world's most popular languages, especially in fields like data science, web development, automation, and artificial intelligence
+Python is a general-purpose programming language that emphasizes code readability, simplicity, and ease of writing. Created by Guido van Rossum and released in 1991, it has become one of the world's most popular languages, especially in fields like data science, web development, automation, and artificial intelligence Python is called an interpreted language because it executes code logic directly, line by line, without the need for a separate compilation step. In methods to compiled languages like C or C++, where the source code is translated into machine code before execution, Python code is translated into intermediate code by the Python interpreter. 
 # Example: 
 print("Hello World!") 
 #output: Hello World!
