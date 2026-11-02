@@ -27,9 +27,13 @@ Helps the interpreter understand how to store and process different kinds of dat
 Enables correct operations by ensuring only valid actions are performed on compatible data types.
 <img width="800" height="369" alt="image" color="gray" src="https://github.com/user-attachments/assets/4b2f7004-cae4-4346-9f7e-0aa906ccba49" />
 Below code assigns different types of values to variable x. With each new assignment, the previous value is replaced and x changes to the new data type.
-
+x = 50
+x = 60.5
+x = "Hello World"
+x = ["geeks", "for", "geeks"]
+x = ("geeks", "for", "geeks")
 x = 50
 x = 20.92
 x = "hello everyone"
-x = {"haw","are","you"}
-x = {"this is my github page"}
+x = ["haw","are","you"]
+x = ("this is my github page")
