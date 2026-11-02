@@ -18,3 +18,5 @@ Python is Interpreted as well as compilation language here, we will understand w
 You do not need to declare variable types (like integer or string) ahead of time; Python determines them automatically at runtime.
 # Readable Syntax: 
 It uses clean, English-like words and relies on mandatory whitespace indentation to define code blocks instead of curly braces {} or semicolons ;.
+## Source Code
+In Python, the supply code is written in undeniable textual content documents with a .Py extension. These documents incorporate human-readable code this is written the use of Python's syntax and language features.
