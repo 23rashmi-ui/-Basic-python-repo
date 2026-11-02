@@ -33,3 +33,6 @@ Below code assigns different types of values to variable x. With each new assign
 ### x = "hello everyone"
 ### x = ["haw","are","you"]
 ### x = ("this is my github page")
+### x = "hello everyone"
+## Numeric Data Types
+In, Python Numeric data types are used to store numeric values. It can be an integer, floating number or even a complex number. It supports three main numeric types:
