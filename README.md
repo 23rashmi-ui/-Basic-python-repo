@@ -96,3 +96,65 @@ Output
 ### [1, 2, 3]
 ### 4
 ### reading
+## 3. Tuple
+Tuples are ordered and immutable collections used to store multiple items in a single variable. Once created, tuple elements cannot be modified and are accessed using indexing.
+
+# Note: A tuple with a single element must include a trailing comma, otherwise Python treats it as a normal value instead of a tuple.
+### t1 = (1,)
+### print(type(t1))
+​
+### t2 = ('github', 'For', 'github', 1, 2)
+### print(t2[3])
+### print(t2[-3])
+
+Output
+### <class 'tuple'>
+### 1
+### github
+# Boolean Data Type
+Boolean data type represents one of two values: True or False. It is mainly used in conditions and comparisons and is represented by the bool class.
+### print(type(True))
+### print(type(False))
+
+Output
+### <class 'bool'>
+### class 'bool'>
+### Truthy and Falsy Values
+truthy and falsy values are values that evaluate to True or False in a Boolean context. Truthy values behave like True, while falsy values behave like False when used in conditions.
+
+### if 1:
+  ###   print("1 is truthy")
+​
+### if not 0:
+ ###   print("0 is falsy")
+
+Output
+### 1 is truthy
+### 0 is falsy
+# Set Data Type
+Sets are unordered and mutable collections used to store unique elements. Since sets are unordered, elements cannot be accessed using indexing. Elements are usually accessed by iterating through the set using a loop.
+
+### s1 = {"a", "a", "b", "c", "b"}
+### print(s1)
+​
+### s2 = {"Github", "For", "Github"}
+### for i in s2:
+###    print(i)
+
+Output
+### {'b', 'a', 'c'}
+### Github
+### For
+## Note: Sets in Python are unordered, so the order of elements when printed may vary each time the code is run.
+
+## Dictionary Data Type
+Dictionaries are used to store data in key:value pairs. Each key in a dictionary must be unique and values are accessed using their keys with square brackets [] or get() method.
+
+# Note: Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly. 
+### d = {1: 'github', 2: 'For', 3: 'github'}
+### print(d[1])    
+### print(d.get(2))
+
+Output
+### github
+### For
