@@ -25,5 +25,5 @@ Data types in Python define the type of value stored in a variable and determine
 
 Helps the interpreter understand how to store and process different kinds of data efficiently.
 Enables correct operations by ensuring only valid actions are performed on compatible data types.
-<img width="800" height="369" alt="image" src="https://github.com/user-attachments/assets/4b2f7004-cae4-4346-9f7e-0aa906ccba49" />
+<img width="800" height="369" alt="image" color="gray" src="https://github.com/user-attachments/assets/4b2f7004-cae4-4346-9f7e-0aa906ccba49" />
 
