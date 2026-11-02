@@ -43,19 +43,19 @@ In, Python Numeric data types are used to store numeric values. It can be an int
 
 
 
-a = 5
-b = 5.0
-c = 2 + 4j
+### a = 5
+### b = 5.0
+### c = 2 + 4j
 ​
-print(type(a))
-print(type(b))
-print(type(c))
+### print(type(a))
+### print(type(b))
+### print(type(c))
 
 Output
-<class 'int'>
-<class 'float'>
-<class 'complex'>
-Sequence Data Types
+### <class 'int'>
+### <class 'float'>
+### <class 'complex'>
+# Sequence Data Types
 A sequence is an ordered collection of items, which can be of similar or different data types. Elements in a sequence can be accessed using indexing.
 
 ## 1. String
@@ -65,19 +65,19 @@ Strings are used to store text data. A string is represented using the str class
 
 
 
-s = 'Welcome to the Geeks World'
-print(s)
-print(type(s))
+### s = 'Welcome to my github'
+### print(s)
+### print(type(s))
 ​
 # access string with index
-print(s[1])
-print(s[-1])
+### print(s[1])
+### print(s[-1])
 
 Output
-Welcome to the Geeks World
-<class 'str'>
-e
-d
+### Welcome to my github 
+### <class 'str'>
+### e
+### b
 ## 2. List
 Lists are ordered and mutable collections used to store multiple items in a single variable. Elements in a list can be of different data types and are accessed using indexing.
 
@@ -85,14 +85,14 @@ Lists are ordered and mutable collections used to store multiple items in a sing
 
 
 
-a = [1, 2, 3]
-print(a)
+### a = [1, 2, 3]
+### print(a)
 ​
-b = ["Geeks", "For", "Geeks", 4, 5]
-print(b[3])
-print(b[-3])
+### b = ["thanks", "For", "reading", 4, 5]
+### print(b[3])
+### print(b[-3])
 
 Output
-[1, 2, 3]
-4
-Geeks
+### [1, 2, 3]
+### 4
+### reading
