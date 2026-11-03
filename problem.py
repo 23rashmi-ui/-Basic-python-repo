@@ -37,3 +37,4 @@ False (11 < 10)
 Loop stops
 output:11 '''
 print("""This is a multiline commments let's check this line what will be print""")
+# output:This is a multiline commments let's check this line what will be print
