@@ -78,6 +78,8 @@ Output
 ### <class 'str'>
 ### e
 ### b
+## indexing Types & syntax for string - "python"
+
 ## 2. List
 Lists are ordered and mutable collections used to store multiple items in a single variable. Elements in a list can be of different data types and are accessed using indexing.
 
