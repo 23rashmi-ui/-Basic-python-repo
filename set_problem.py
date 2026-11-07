@@ -20,4 +20,15 @@ unique_patients_visiting =  general_patients.symmetric(cardiology_patients)
 print(unique_patients_visiting)
 output:unique_patients_visiting:{101,102,105,106,107}
 #5.	Add two new patients, 108 and 109, to the cardiology department.
+two_new_patients = cardiology_patients.update([108,109])
+print(cardiology_patients)
+output:cardiology_patients:{103, 104, 106, 107, 108, 109}
 #6.	Display the updated cardiology patient records and total count.
+update_cardiology = cardiology_patients
+print(update_cardiology)
+print(len(update_cardiology))
+output:{103, 104, 106, 107, 108, 109}
+6
+
+
+
