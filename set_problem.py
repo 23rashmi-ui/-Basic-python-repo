@@ -1,4 +1,4 @@
-#Q8. Hospital Patient Management System
+#Q1. Hospital Patient Management System
 #A hospital maintains records of patients visiting its departments. The management wants to identify common patients and update department records.
 #Given:
 #general_patients = {101, 102, 103, 104, 105}
