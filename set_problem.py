@@ -118,7 +118,10 @@ three_sports = cricket.union(football).union(basketball)
 print(three_sports)
 output:{301, 302, 303, 304, 305, 306, 307, 308}
 #4.	Find students participating only in Cricket.
-
+only_in_cricket =  cricket.difference(football).difference(basketball)
+print(only_in_cricket)
+output:{302}
 #5.	Check whether all Basketball participants are included in the combined Cricket and Football participants.
+
 #6.	Find students participating in Cricket but not in Basketball.
 
