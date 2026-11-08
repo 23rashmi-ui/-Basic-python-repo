@@ -62,5 +62,26 @@ output:False
 False
 
 #6.	Add employee 208 to the Python training set.
-python_training = python_training.add(208)
+python_training.add(208)
 print(python_training)
+output:{208, 201, 202, 203, 204, 205}
+
+#Q3. Online Shopping Cart Management
+#An online shopping application maintains separate sets of products selected by two customers. The application needs to compare their shopping carts.
+#Given:
+#customer1_cart = {"Laptop", "Mouse", "Keyboard", "Monitor"}
+#customer2_cart = {"Mouse", "Keyboard", "Printer", "Speaker"}
+#Tasks:
+#1.	Create two sets representing the customers' shopping carts.
+customer1_cart = {"Laptop", "Mouse", "Keyboard", "Monitor"}
+customer2_cart = {"Mouse", "Keyboard", "Printer", "Speaker"}
+#2.	Find products common to both customers.
+
+
+
+#3.	Find products selected only by customer 1.
+#4.	Find all unique products selected by both customers.
+#5.	Find products selected by either customer but not both.
+#6.	Remove "Monitor" from customer 1's cart and display the updated set
+
+
