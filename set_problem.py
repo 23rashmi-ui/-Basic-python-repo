@@ -97,3 +97,18 @@ output:{'Speaker', 'Laptop', 'Printer', 'Monitor'}
 customer1_cart.remove("Monitor")
 print(customer1_cart)
 output:{'Laptop', 'Keyboard', 'Mouse'}
+
+#Q4. College Sports Event Management System
+#A college organizes Cricket, Football, and Basketball events. The sports coordinator wants to analyze student participation.
+#Given:
+#cricket = {301, 302, 303, 304}
+#football = {303, 304, 305, 306}
+#basketball = {301, 306, 307, 308}
+#Tasks:
+#1.	Create three sets representing students participating in each sport.
+#2.	Find students participating in both Cricket and Football.
+#3.	Find all unique students participating in the three sports.
+#4.	Find students participating only in Cricket.
+#5.	Check whether all Basketball participants are included in the combined Cricket and Football participants.
+#6.	Find students participating in Cricket but not in Basketball.
+
