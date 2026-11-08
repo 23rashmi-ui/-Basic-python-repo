@@ -122,6 +122,13 @@ only_in_cricket =  cricket.difference(football).difference(basketball)
 print(only_in_cricket)
 output:{302}
 #5.	Check whether all Basketball participants are included in the combined Cricket and Football participants.
-
+combined_participants = basketball.issubset(cricket)
+combined_participants1 = basketball.issubset(football)
+print(combined_participants, combined_participants1)
+output:False
+False
 #6.	Find students participating in Cricket but not in Basketball.
+Cricket_but_not_in_Basketball = cricket.difference(basketball)
+print(Cricket_but_not_in_Basketball)
+output:{304, 302, 303}
 
