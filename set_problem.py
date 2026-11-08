@@ -78,11 +78,22 @@ customer2_cart = {"Mouse", "Keyboard", "Printer", "Speaker"}
 #2.	Find products common to both customers.
 comman_product = customer1_cart.intersection(customer2_cart) 
 print(comman_product)
-output:mouse, keyboard
-
+output:{'mouse', 'keyboard'}
 #3.	Find products selected only by customer 1.
+customer1_cart = customer1_cart.difference(customer2_cart)
+print(customer1_cart)
+output:{'Laptop', 'Monitor'}
+
 #4.	Find all unique products selected by both customers.
+customer_cart = customer1_cart.union(customer2_cart)
+print(customer_cart)
+output:{'Speaker', 'Laptop', 'Printer', 'Keyboard', 'Monitor', 'Mouse'}
+
 #5.	Find products selected by either customer but not both.
+customer_cart = customer1_cart.symmetric_difference(customer2_cart)
+print(customer_cart)
+output:{'Speaker', 'Laptop', 'Printer', 'Monitor'}
 #6.	Remove "Monitor" from customer 1's cart and display the updated set
-
-
+customer1_cart.remove("Monitor")
+print(customer1_cart)
+output:{'Laptop', 'Keyboard', 'Mouse'}
