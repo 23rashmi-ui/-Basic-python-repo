@@ -76,8 +76,9 @@ output:{208, 201, 202, 203, 204, 205}
 customer1_cart = {"Laptop", "Mouse", "Keyboard", "Monitor"}
 customer2_cart = {"Mouse", "Keyboard", "Printer", "Speaker"}
 #2.	Find products common to both customers.
-
-
+comman_product = customer1_cart.intersection(customer2_cart) 
+print(comman_product)
+output:mouse, keyboard
 
 #3.	Find products selected only by customer 1.
 #4.	Find all unique products selected by both customers.
