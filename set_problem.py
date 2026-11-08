@@ -106,9 +106,19 @@ output:{'Laptop', 'Keyboard', 'Mouse'}
 #basketball = {301, 306, 307, 308}
 #Tasks:
 #1.	Create three sets representing students participating in each sport.
+cricket = {301, 302, 303, 304}
+football = {303, 304, 305, 306}
+basketball = {301, 306, 307, 308}
 #2.	Find students participating in both Cricket and Football.
+both_cricket_and_football = cricket.union(football)
+print(both_cricket_and_football)
+output: {301, 302, 303, 304, 305, 306}
 #3.	Find all unique students participating in the three sports.
+three_sports = cricket.union(football).union(basketball)
+print(three_sports)
+output:{301, 302, 303, 304, 305, 306, 307, 308}
 #4.	Find students participating only in Cricket.
+
 #5.	Check whether all Basketball participants are included in the combined Cricket and Football participants.
 #6.	Find students participating in Cricket but not in Basketball.
 
