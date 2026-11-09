@@ -142,8 +142,10 @@ roll_numbers={101, 102, 103, 104, 105}
 #Add a new student with roll number 106.
 roll_numbers.add(106)
 print(roll_numbers)
-
+output:{101, 102, 103, 104, 105, 106}
 #Remove roll number 103 because the student left the class.
+roll_numbers.remove(103)
+print(roll_numbers)
 #Use discard() to remove roll number 110 if it exists.
 #Display the final attendance list.
 #Display the total number of students present.
