@@ -131,4 +131,19 @@ False
 Cricket_but_not_in_Basketball = cricket.difference(basketball)
 print(Cricket_but_not_in_Basketball)
 output:{304, 302, 303}
+## Python Set – Scenario-Based Practice Questions
+#Q1. Student Attendance Management System
+#Set methods: add(), remove(), discard(), len()
+#Scenario: A college maintains a set of roll numbers of students who attended a programming class.
 
+#Perform the following tasks:
+#Create a set containing the roll numbers {101, 102, 103, 104, 105}.
+roll_numbers={101, 102, 103, 104, 105}
+#Add a new student with roll number 106.
+roll_numbers.add(106)
+print(roll_numbers)
+
+#Remove roll number 103 because the student left the class.
+#Use discard() to remove roll number 110 if it exists.
+#Display the final attendance list.
+#Display the total number of students present.
