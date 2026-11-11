@@ -17,3 +17,7 @@ output:Enter the first number:76
 Enter the second number:78
 Enter operater (+, -, *, /, **, //):_
 INVALID OPERATORS
+Enter the first number:86
+Enter the second number:4
+Enter operater (+, -, *, /, **, //):**
+54700816.0
