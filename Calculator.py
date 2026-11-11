@@ -13,3 +13,7 @@ elif op == '//':
   print (a//b)
 else:
   print("INVALID OPERATORS") 
+output:Enter the first number:76
+Enter the second number:78
+Enter operater (+, -, *, /, **, //):_
+INVALID OPERATORS
