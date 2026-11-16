@@ -27,6 +27,8 @@ output:{106, 107}
 #products requested by customers are {202, 204, 205, 206, 207}.
 #Perform the following tasks:
 #Create two sets representing available and requested products.
+product_current_available = {201, 202, 203, 204, 205}
+product_requested = {202, 204, 205, 206, 207}
 #Add two newly arrived products, 208 and 209, to the warehouse.
 #Identify products that can be delivered to customers.
 #Identify products requested by customers but currently unavailable.
