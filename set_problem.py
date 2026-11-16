@@ -13,7 +13,13 @@ both_students = python.intersection(Data_Science)
 print(both_students)
 output:{103, 104, 105}
 #Identify students registered only for the Python workshop.
+only_python = python.difference(Data_science)
+print(only_python)
+output:{102, 102}
 #Identify students registered only for the Data Science workshop.
+only_data_science = Data_Science.difference(python)
+print(only_data_science)
+output:{106, 107}
 #Q3. Online Shopping – Product Availability
 #Set methods: update(), intersection(), difference()
 #Scenario: An online shopping website maintains two sets of product IDs.
