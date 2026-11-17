@@ -39,5 +39,11 @@ print(product_requested)
 output:product_current_available = {201, 202, 203, 204, 205, 208, 209}
 product_requested = {202, 204, 205, 206, 207, 208, 209}
 #Identify products that can be delivered to customers.
+delivered = product_current_available
+print(delivered)
+output:{208, 209, 201, 202, 203, 204, 205}
 #Identify products requested by customers but currently unavailable.
+customers_but_currently_unavailable = product_requested.difference(product_current_available)
+print(customers_but_currently_unavailable)
+output:
 #Display the updated warehouse product list.
